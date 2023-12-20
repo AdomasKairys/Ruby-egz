@@ -1,6 +1,6 @@
-require 'digest'
+require 'digest/sha2'
 
-class Lifter 
+class Lifter
     attr_accessor :name, :weight_class, :total, :hash
     def initialize(name, weight_class, total)
         @name = name
@@ -8,7 +8,7 @@ class Lifter
         @total = total
         @hash = ""
     end
-    def generate_hash()
-        @hash = Digest::SHA256.hexdigest @name + @weight_class.to_s + total.to_s
+    def generate_hash
+        @hash = Digest::SHA256.hexdigest @name + @weight_class.to_s + @total.to_s
     end
 end
