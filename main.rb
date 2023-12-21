@@ -36,6 +36,7 @@ distributor = Ractor.new worker, result do |work, res|
         l = Ractor.receive
         work[index] << l
     end
+    print "printing\n"
 
     loop do
         if w
@@ -44,17 +45,19 @@ distributor = Ractor.new worker, result do |work, res|
         end
 
         if l == nil
-            work.delete w
             break
         end
+
         w, resul = Ractor.select *work
         print w
         print "\n"
         res << resul
     end
 
+    work.delete w
     work.each{
         _r, resul = Ractor.select *work
+        work.delete _r
         res << resul
     }
     res << nil
