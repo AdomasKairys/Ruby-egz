@@ -6,15 +6,21 @@ require './Utils.rb'
 lifters = Utils.read_json('Data/IF11_KairysA_LD1_dat2.json')
 lifters.each{ |l| Ractor.make_shareable l.freeze}
 
-NUM = 4
+NUM = 1
 N = 100_000
+
 
 worker = NUM.times.map{
     Ractor.new do
         while l = Ractor.receive.dup
+            starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
             N.times.each{
                 l.generate_hash
             }
+            ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+            elapsed = ending - starting
+            print elapsed.to_s() +"\n"
             Ractor.yield l
         end
     end
@@ -49,8 +55,8 @@ distributor = Ractor.new worker, result do |work, res|
         end
 
         w, resul = Ractor.select *work
-        print w
-        print "\n"
+        #print w
+        #print "\n"
         res << resul
     end
 
@@ -67,11 +73,15 @@ end
 
 
 starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
 lifters.each{ |l|
     distributor << l
 }
+
 distributor << nil
+
 p = distributor.take
+
 ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 elapsed = ending - starting
 print elapsed.to_s() +"\n"
