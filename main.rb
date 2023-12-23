@@ -2,25 +2,33 @@ require 'json'
 require 'ractor'
 require './Lifter.rb'
 require './Utils.rb'
+require 'digest/sha2'
 
 lifters = Utils.read_json('Data/IF11_KairysA_LD1_dat2.json')
 lifters.each{ |l| Ractor.make_shareable l.freeze}
+lifters.freeze
+sha256 = Digest::SHA256
+Ractor.make_shareable(sha256.freeze)
 
-NUM = 1
+NUM = 4
 N = 100_000
 
 
 worker = NUM.times.map{
-    Ractor.new do
-        while l = Ractor.receive.dup
-            starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    Ractor.new sha256 do |sh|
+        hash = ""
+        while l = Ractor.receive
+            #starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+            string = l.name + l.weight_class.to_s + l.total.to_s
 
-            N.times.each{
-                l.generate_hash
-            }
-            ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-            elapsed = ending - starting
-            print elapsed.to_s() +"\n"
+            N.times do
+                hash = Lifter.generate_hash(sh, string)
+            end
+
+            #ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+            #elapsed = ending - starting
+
+            #print elapsed.to_s() +"\n"
             Ractor.yield l
         end
     end
@@ -42,6 +50,7 @@ distributor = Ractor.new worker, result do |work, res|
         l = Ractor.receive
         work[index] << l
     end
+
     print "printing\n"
 
     loop do
