@@ -4,14 +4,15 @@ require './Lifter.rb'
 require './Utils.rb'
 require 'digest/sha2'
 
-lifters = Utils.read_json('Data/IF11_KairysA_LD1_dat2.json')
+lifters = Utils.read_json('Data/IF11_KairysA_LD1_dat3.json')
 lifters.each{ |l| Ractor.make_shareable l.freeze}
 lifters.freeze
+print lifters.size
 sha256 = Digest::SHA256
 Ractor.make_shareable(sha256.freeze)
 
-NUM = 4
-N = 100_000
+NUM = 1
+N = 1_000
 
 
 worker = NUM.times.map{
@@ -19,17 +20,21 @@ worker = NUM.times.map{
         hash = ""
         while l = Ractor.receive
             #starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-            string = l.name + l.weight_class.to_s + l.total.to_s
-
+            string = l.name + l.weight_class.to_s + '%.6f'%l.total.to_s #.6 because that was default with c++
+            print string + "\n"
+            #sleep 0.01
             N.times do
                 hash = Lifter.generate_hash(sh, string)
             end
-
             #ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
             #elapsed = ending - starting
-
             #print elapsed.to_s() +"\n"
-            Ractor.yield l
+
+            if hash[0].match /[0-9]/
+                Ractor.yield nil
+            else
+                Ractor.yield l
+            end
         end
     end
 }
@@ -42,14 +47,34 @@ result = Ractor.new do
     Ractor.yield r
 end
 
-distributor = Ractor.new worker, result do |work, res|
+output = Ractor.new do
+    file = File.open("out.txt", "w")
+    result_arr = Ractor.receive
+    result_arr.each { |rarr|
+        file.write rarr.name + '|' + rarr.weight_class.to_s + '|' + rarr.total.to_s + "\n"
+    }
+    file.close
+    Ractor.yield true
+end
+
+logger = Ractor.new do
+    file = File.open("log.txt", "w")
+    while log = Ractor.receive
+        file.write log + "\n"
+    end
+    file.close
+    Ractor.yield true
+end
+
+
+
+distributor = Ractor.new worker, result, logger, output do |work, res, log, out|
     w = nil
     l = nil
-
-    for index in 0..NUM-1
+    work.each{ |wr|
         l = Ractor.receive
-        work[index] << l
-    end
+        wr << l
+    }
 
     print "printing\n"
 
@@ -66,7 +91,9 @@ distributor = Ractor.new worker, result do |work, res|
         w, resul = Ractor.select *work
         #print w
         #print "\n"
-        res << resul
+        if resul
+            res << resul
+        end
     end
 
     work.delete w
@@ -76,8 +103,9 @@ distributor = Ractor.new worker, result do |work, res|
         res << resul
     }
     res << nil
-
-    Ractor.yield res.take
+    out << res.take
+    out.take
+    Ractor.yield true
 end
 
 
@@ -89,7 +117,7 @@ lifters.each{ |l|
 
 distributor << nil
 
-p = distributor.take
+distributor.take
 
 ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 elapsed = ending - starting

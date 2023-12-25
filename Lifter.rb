@@ -9,6 +9,6 @@ class Lifter
     end
 
     def self.generate_hash(digest, string)
-       digest.hexdigest string
+        digest.hexdigest string
     end
 end
