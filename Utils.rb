@@ -8,5 +8,8 @@ class Utils
             data = JSON.parse(file)
             data['wlifter'].map { |wl| Lifter.new(wl['name'], wl['weightClass'], wl['total']) }
         end
+        def generate_hash(digest, string)
+            digest.hexdigest(string)[0..10]
+        end
     end
 end
