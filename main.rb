@@ -107,6 +107,7 @@ distributor = Ractor.new worker, result, logger, output do |work, res, log, out|
     log << "Sent results to output " + out.to_s
     log << nil
     out.take
+    log.take
     Ractor.yield true
 end
 
