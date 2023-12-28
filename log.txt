@@ -1,403 +1,403 @@
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 running>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 running>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
 Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 running>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 running>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#3 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#2 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#2 main.rb:17 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Recevied form main
-Sent to worker #<Ractor:#3 main.rb:17 blocking>
-Took from worker #<Ractor:#4 main.rb:17 running>
-Element filtered out by worker #<Ractor:#4 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#4 main.rb:17 blocking>
-Took from worker #<Ractor:#5 main.rb:17 blocking>
-Element filtered out by worker #<Ractor:#5 main.rb:17 blocking>
-Recevied form main
-Sent to worker #<Ractor:#5 main.rb:17 blocking>
-Signal for no more data from main
-Took from worker #<Ractor:#2 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Took from worker #<Ractor:#3 main.rb:17 blocking>
-Sent to results #<Ractor:#6 main.rb:34 blocking>
-Sent signal for no more data to results #<Ractor:#6 main.rb:34 blocking>
-Sent results to output #<Ractor:#7 main.rb:47 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#4 main.rb:21 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#3 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#2 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Sent to worker #<Ractor:#4 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent to worker #<Ractor:#5 main.rb:21 blocking>
+Recevied form main
+Took from worker #<Ractor:#3 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#3 main.rb:21 blocking>
+Took from worker #<Ractor:#2 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#2 main.rb:21 blocking>
+Took from worker #<Ractor:#4 main.rb:21 blocking>
+Sent to results #<Ractor:#6 main.rb:38 blocking>
+Took from worker #<Ractor:#5 main.rb:21 blocking>
+Element filtered out by worker #<Ractor:#5 main.rb:21 blocking>
+Sent signal for no more data to results #<Ractor:#6 main.rb:38 blocking>
+Sent results to output #<Ractor:#7 main.rb:53 blocking>
