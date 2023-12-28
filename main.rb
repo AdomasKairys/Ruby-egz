@@ -98,6 +98,7 @@ distributor = Ractor.new worker, result, logger, output do |work, res, log, out|
         end
 
         if is_finished
+            log << "Worker stopped working " + w.to_s
             work.delete w
         else
             w << l
